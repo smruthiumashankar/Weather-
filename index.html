@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real-Time Weather App 🌤</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-container">
+    <h2>🌦 Real-Time Weather App</h2>
+    <input type="text" id="city" placeholder="Enter city name">
+    <button onclick="getWeather()">Get Weather</button>
+    
+    <div id="weather-result">
+      <h3 id="cityName"></h3>
+      <p id="temperature"></p>
+      <p id="description"></p>
+      <p id="humidity"></p>
+      <p id="wind"></p>
+    </div>
+  </div>
+
+  <div class="quote-container">
+    <p id="weather-quote"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
